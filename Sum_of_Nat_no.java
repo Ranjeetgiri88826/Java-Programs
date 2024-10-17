@@ -1,14 +1,14 @@
 import java.util.*;
-
-class Sum {
+class Sum1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int sum=0;
-        System.out.println("enter the number:");
+        int i=1,sum=0;
+        System.out.println("How much time: ");
         int n = sc.nextInt();
-        for(int i=1;i<=n;i++){
+        while(i<=n){
             sum=sum+i;
+            i++;
         }
-        System.out.println("the value is:"+sum);
+        System.out.println("the value sun="+sum);
     }
 }

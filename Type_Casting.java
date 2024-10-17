@@ -6,6 +6,7 @@ public class Type_Casting {
         char ch ='a';
         int num = ch;
         System.out.println(num);
+       
     }
     
 }
