@@ -1,6 +1,5 @@
 
-
-public class Arrays {
+public class Arrays1 {
 
     public static void update(int marks[]){
         for(int i=0; i<marks.length; i++){
@@ -45,4 +44,5 @@ public class Arrays {
         System.out.println();
         
     }
+   
 }
